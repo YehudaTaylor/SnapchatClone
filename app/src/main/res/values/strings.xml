@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Snapchat Clone</string>
+    <string name="login_signup_button">Login/SignUp</string>
+    <string name="email_address">Email</string>
+    <string name="password">Password</string>
+    <string name="choose_image_button">Choose Image</string>
+    <string name="choose_message">Message</string>
+    <string name="next_send">Next</string>
+    <string name="choose_image_to_send">Choose image to send</string>
+    <string name="content_description_view_of_sent_image">view of sent image</string>
+</resources>

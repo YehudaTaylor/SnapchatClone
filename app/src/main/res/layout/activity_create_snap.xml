@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateSnapActivity">
+
+    <ImageView
+        android:id="@+id/createSnapImageView"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="@dimen/select_image_view_x"
+        android:layout_marginTop="@dimen/select_image_view_y_top"
+        android:layout_marginEnd="@dimen/select_image_view_x"
+        android:layout_marginBottom="353dp"
+        android:contentDescription="@string/choose_image_to_send"
+        android:onClick="nextClicked"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/picture_place_holder" />
+
+    <Button
+        android:id="@+id/chooseImageButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_create_snap_choose_image_button_x"
+        android:layout_marginTop="@dimen/activity_create_snap_choose_image_button_y"
+        android:layout_marginEnd="@dimen/activity_create_snap_choose_image_button_x"
+        android:onClick="chooseImageClicked"
+        android:text="@string/choose_image_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/createSnapImageView" />
+
+    <EditText
+        android:id="@+id/messageEditText"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_create_snap_message_x"
+        android:layout_marginTop="@dimen/activity_create_snap_spacing_y"
+        android:layout_marginEnd="@dimen/activity_create_snap_message_x"
+        android:autofillHints=""
+        android:ems="10"
+        android:hint="@string/choose_message"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chooseImageButton" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/activity_create_snap_next_button_x"
+        android:layout_marginTop="@dimen/activity_create_snap_spacing_y"
+        android:layout_marginEnd="@dimen/activity_create_snap_next_button_x"
+        android:onClick="nextClicked"
+        android:text="@string/next_send"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/messageEditText" />
+</androidx.constraintlayout.widget.ConstraintLayout>

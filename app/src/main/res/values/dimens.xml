@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="email_top">80dp</dimen>
+    <dimen name="username_password_login_y">32dp</dimen>
+    <dimen name="username_password_login_x">80dp</dimen>
+    <dimen name="signup_login_button_x">140dp</dimen>
+    <dimen name="select_image_view_x">16dp</dimen>
+    <dimen name="select_image_view_y_top">16dp</dimen>
+    <dimen name="activity_create_snap_spacing_y">16dp</dimen>
+    <dimen name="activity_create_snap_choose_image_button_y">40dp</dimen>
+    <dimen name="activity_create_snap_choose_image_button_x">140dp</dimen>
+    <dimen name="activity_create_snap_message_x">80dp</dimen>
+    <dimen name="activity_create_snap_next_button_x">148dp</dimen>
+    <dimen name="message_view_text_x_y">16dp</dimen>
+    <dimen name="received_image_view_x_y">16dp</dimen>
+</resources>
